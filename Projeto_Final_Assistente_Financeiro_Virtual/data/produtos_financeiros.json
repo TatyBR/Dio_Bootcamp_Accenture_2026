@@ -1,0 +1,182 @@
+[
+  {
+    "nome": "Tesouro Selic",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "100% da Selic (Selic Meta: 14,50% a.a. | maio/2026)",
+    "aporte_minimo": 30.00,
+    "indicado_para": "Reserva de emergência e iniciantes",
+    "observacoes": "Liquidez diária com cobertura do Tesouro Nacional. Melhor opção para curto prazo.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física brasileira",
+      "idade_minima": "Qualquer idade (menores precisam de representante legal)",
+      "perfil_investidor": "Conservador",
+      "restricoes": "Nenhuma restrição relevante. Isenção de IR não se aplica a pessoa jurídica."
+    }
+  },
+  {
+    "nome": "CDB Liquidez Diária",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "100% a 105% do CDI (CDI: ~14,40% a.a. | maio/2026)",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Quem busca segurança com rendimento diário",
+    "observacoes": "Cobertura do FGC até R$ 250 mil por CPF/instituição. Comparar taxas entre bancos.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física ou jurídica brasileira",
+      "idade_minima": "Qualquer idade (menores precisam de representante legal)",
+      "perfil_investidor": "Conservador",
+      "restricoes": "Pessoa jurídica está sujeita a tributação diferenciada (sem isenções). FGC cobre apenas PF e PJ de pequeno porte."
+    }
+  },
+  {
+    "nome": "LCI/LCA",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "90% a 97% do CDI (isento de IR)",
+    "aporte_minimo": 1000.00,
+    "indicado_para": "Quem pode aguardar o prazo de carência (mín. 90 dias)",
+    "observacoes": "Isenção de IR para pessoa física. Cobertura do FGC. Rentabilidade líquida competitiva.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física brasileira",
+      "idade_minima": "Qualquer idade (menores precisam de representante legal)",
+      "perfil_investidor": "Conservador",
+      "restricoes": "Isenção de IR exclusiva para pessoa física. PJ não tem esse benefício. Requer tolerância à carência mínima de 90 dias."
+    }
+  },
+  {
+    "nome": "Tesouro IPCA+",
+    "categoria": "renda_fixa",
+    "risco": "baixo_medio",
+    "rentabilidade": "IPCA + 7% a 8% a.a. (taxa travada na compra)",
+    "aporte_minimo": 30.00,
+    "indicado_para": "Proteção contra inflação no médio e longo prazo",
+    "observacoes": "Recomendado por especialistas em 2026 para travar taxas ainda elevadas. Risco de marcação a mercado se resgatar antes do vencimento.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física brasileira",
+      "idade_minima": "Qualquer idade (menores precisam de representante legal)",
+      "perfil_investidor": "Conservador a moderado",
+      "restricoes": "Nenhuma restrição relevante. Recomendado para quem não precisará resgatar antes do vencimento."
+    }
+  },
+  {
+    "nome": "CRI/CRA",
+    "categoria": "renda_fixa",
+    "risco": "medio",
+    "rentabilidade": "IPCA+ ou CDI+ (variável por emissão)",
+    "aporte_minimo": 1000.00,
+    "indicado_para": "Investidor moderado a arrojado que busca isenção de IR",
+    "observacoes": "Isentos de IR para pessoa física. Sem cobertura do FGC. Atrelados a recebíveis imobiliários (CRI) ou do agronegócio (CRA).",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física brasileira",
+      "idade_minima": "18 anos (ou menor com representante legal)",
+      "perfil_investidor": "Moderado a arrojado",
+      "restricoes": "Muitas emissões são restritas a investidores qualificados (patrimônio financeiro acima de R$ 1 milhão) ou profissionais. Isenção de IR exclusiva para pessoa física. Sem FGC."
+    }
+  },
+  {
+    "nome": "Debêntures Incentivadas",
+    "categoria": "renda_fixa",
+    "risco": "medio",
+    "rentabilidade": "IPCA + 6% a 9% a.a. (variável por emissão)",
+    "aporte_minimo": 1000.00,
+    "indicado_para": "Investidor moderado a arrojado buscando isenção de IR",
+    "observacoes": "Financiam projetos de infraestrutura. Isentas de IR para PF. Sem FGC. Boa liquidez no mercado secundário.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física brasileira",
+      "idade_minima": "18 anos (ou menor com representante legal)",
+      "perfil_investidor": "Moderado a arrojado",
+      "restricoes": "Isenção de IR exclusiva para pessoa física. Algumas emissões restritas a investidores qualificados. Sem cobertura do FGC."
+    }
+  },
+  {
+    "nome": "Fundo Multimercado",
+    "categoria": "fundo",
+    "risco": "medio",
+    "rentabilidade": "CDI + 1% a 3% a.a. (variável por fundo)",
+    "aporte_minimo": 500.00,
+    "indicado_para": "Perfil moderado que busca diversificação",
+    "observacoes": "Gestão ativa com exposição a renda fixa, câmbio e derivativos. Verificar taxa de administração e performance antes de investir.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física ou jurídica brasileira",
+      "idade_minima": "Qualquer idade (menores precisam de representante legal)",
+      "perfil_investidor": "Moderado",
+      "restricoes": "Alguns fundos são restritos a investidores qualificados ou profissionais. Fundos exclusivos exigem patrimônio elevado. Verificar regulamento de cada fundo."
+    }
+  },
+  {
+    "nome": "Fundo de Ações",
+    "categoria": "fundo",
+    "risco": "alto",
+    "rentabilidade": "Variável (referência: Ibovespa)",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Perfil arrojado com foco no longo prazo",
+    "observacoes": "Bolsa brasileira valorizou mais de 30% em 2025. Ano eleitoral (2026) pode trazer volatilidade.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física ou jurídica brasileira",
+      "idade_minima": "Qualquer idade (menores precisam de representante legal)",
+      "perfil_investidor": "Arrojado",
+      "restricoes": "Exige suitability (perfil de investidor) compatível com risco alto. Não recomendado para quem tem horizonte de curto prazo."
+    }
+  },
+  {
+    "nome": "FII (Fundo de Investimento Imobiliário)",
+    "categoria": "renda_variavel",
+    "risco": "medio_alto",
+    "rentabilidade": "Variável (dividend yield médio: 8% a 12% a.a.)",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Quem busca renda passiva mensal com exposição ao setor imobiliário",
+    "observacoes": "Proventos mensais isentos de IR para PF (nas condições legais). Negociados na B3. Preços tendem a se beneficiar da queda da Selic.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física brasileira",
+      "idade_minima": "18 anos (ou menor com representante legal e conta em corretora)",
+      "perfil_investidor": "Moderado a arrojado",
+      "restricoes": "Isenção de IR nos proventos exclusiva para PF com menos de 10% das cotas do fundo. PJ paga IR sobre rendimentos. Exige conta em corretora habilitada na B3."
+    }
+  },
+  {
+    "nome": "ETF (Exchange Traded Fund)",
+    "categoria": "renda_variavel",
+    "risco": "medio_alto",
+    "rentabilidade": "Variável (replica índice de referência)",
+    "aporte_minimo": 10.00,
+    "indicado_para": "Investidor que busca diversificação com baixo custo e liquidez",
+    "observacoes": "Mercado cresceu fortemente em 2025. Disponíveis ETFs de renda fixa (ex: LFTS11) e renda variável (ex: BOVA11, IVVB11). Taxa de administração geralmente baixa.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física ou jurídica brasileira",
+      "idade_minima": "18 anos (ou menor com representante legal e conta em corretora)",
+      "perfil_investidor": "Moderado a arrojado",
+      "restricoes": "Exige conta em corretora habilitada na B3. Sem cobertura do FGC."
+    }
+  },
+  {
+    "nome": "BDR (Brazilian Depositary Receipt)",
+    "categoria": "renda_variavel",
+    "risco": "alto",
+    "rentabilidade": "Variável (desempenho da empresa + variação cambial)",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Perfil arrojado que busca diversificação internacional sem abrir conta no exterior",
+    "observacoes": "Exposição ao mercado externo (ex: Apple, Google, Amazon) via B3. Sujeito à variação cambial. S&P 500 projetado entre 7.400 e 8.000 pts em 2026.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física ou jurídica brasileira",
+      "idade_minima": "18 anos (ou menor com representante legal e conta em corretora)",
+      "perfil_investidor": "Arrojado",
+      "restricoes": "BDRs de nível I (maioria) eram restritos a investidores qualificados até 2020; hoje são acessíveis a qualquer investidor pessoa física. Exige conta em corretora habilitada na B3. Sujeito à variação cambial."
+    }
+  },
+  {
+    "nome": "Previdência Privada (PGBL/VGBL)",
+    "categoria": "previdencia",
+    "risco": "baixo_a_alto",
+    "rentabilidade": "Variável (depende do fundo escolhido)",
+    "aporte_minimo": 50.00,
+    "indicado_para": "Planejamento de aposentadoria e sucessão patrimonial",
+    "observacoes": "PGBL: dedução de até 12% da renda bruta no IR (quem faz declaração completa). VGBL: tributação só sobre rendimentos. Escolher entre tabela regressiva e progressiva de IR.",
+    "elegibilidade": {
+      "publico_alvo": "Pessoa física brasileira",
+      "idade_minima": "Qualquer idade (pais podem contratar para filhos menores)",
+      "perfil_investidor": "Conservador a arrojado (conforme fundo escolhido)",
+      "restricoes": "Benefício fiscal do PGBL restrito a quem declara IR no modelo completo e contribui para INSS ou regime próprio. VGBL indicado para isentos ou quem usa declaração simplificada. PJ não contrata como titular."
+    }
+  }
+]
