@@ -2,7 +2,7 @@
 
 Repositório criado para armazenar os exercícios práticos, desafios e projetos desenvolvidos ao longo do **Bootcamp DIO Accenture - Python para Análise e Automação de Dados**.
 
-Todo o conteúdo aqui é de caráter exclusivamente educacional e está em constante evolução conforme o avanço no bootcamp.
+Todo o conteúdo aqui é de caráter exclusivamente educacional e está em constante evolução.
 
 ---
 
@@ -14,7 +14,7 @@ Todo o conteúdo aqui é de caráter exclusivamente educacional e está em const
 | `Desafios_codigo/` | Notebooks .ipynb - respostas dos desafios dos módulos  |
 | `Exercicios_Pratica/` | Exercícios e exemplos diversos sobre os módulos estudados  |
 | `Projeto_Deteccao_Fraudes/` | Projeto de detecção de fraudes com ML (Regressão Logística, Random Forest, XGBoost) |
-| *(em construção)* | Novos projetos/desafios/exercícios poderão ser adicionados aqui |
+| `Projeto_Deteccao_Fraudes/` | Projeto final para conclusão do bootcamp: Criação de um agente financeiro utilizando IA Generativa |
 
 ---
 
@@ -29,7 +29,7 @@ Todo o conteúdo aqui é de caráter exclusivamente educacional e está em const
 
 ## 📌 Status
 
-> 🚧 Repositório em construção — sendo atualizado conforme avanço no bootcamp.
+> 🚧 Repositório finalizado no momento (poderam surgir alterações, pois os projetos aqui desenvolvidos podem sofrer alterações e/ou atualizações posteriores).
 
 ---
 
