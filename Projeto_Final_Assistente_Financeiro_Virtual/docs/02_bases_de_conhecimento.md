@@ -1,6 +1,5 @@
 # Base de Conhecimento
 
-> [!TIP]
 > Prompt utilizado para esta etapa:
 > Preciso organizar a base de conhecimento do meu agente financeiro educativo.
 > Tenho estes arquivos de dados: historico_atendimento.csv, perfil_investidor.json, produtos_financeiros.json e transacoes.csv.
@@ -34,19 +33,35 @@ O arquivo `produtos_financeiros.json` foi atualizado para o ano de 2026. Recebeu
 
 ## Estratégia de Integração
 
-### Como os dados são carregados?
-> Descreva como seu agente acessa a base de conhecimento.
+### Como os dados podem ser carregados?
+> Como o agente acessará a base de conhecimento.
 
-1ª POSSIBILIDADE:
-**** Injetados diretamente no prompt ou carregados via código python.
+**1ª POSSIBILIDADE:**
+- Dados injetados diretamente no prompt.
 
-2ª POSSIBILIDADE:
-Carregar via código python.
-(Incluir abaixo o código utilizado!!!!!!)
 
-```python
+**2ª POSSIBILIDADE:**
+- Dados carregados via código python (exemplo de código abaixo).
 
 ```
+import pandas as pd
+import json
+
+# CSVs
+transacoes = json.load(open('./data/transacoes.csv'))
+historico = json.load(open('./data/historico_investimentos.csv'))
+
+# JSONs
+with open('./data/perfil_investidor.json', 'r', encoding='utf-8') as f:
+  perfil = json.load(f)
+
+# JSONs
+with open('./data/produtos_investimentos.json', 'r', encoding='utf-8') as f:
+   produtos = json.load(f)
+
+```
+
+---
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
@@ -137,6 +152,7 @@ PRODUTOS DISPONÍVEIS PARA ENSINO:
       "perfil_investidor": "Conservador",
       "restricoes": "Pessoa jurídica está sujeita a tributação diferenciada (sem isenções). FGC cobre apenas PF e PJ de pequeno porte."
     }
+  }
 ...
 
 

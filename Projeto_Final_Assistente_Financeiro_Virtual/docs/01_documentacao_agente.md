@@ -1,6 +1,5 @@
 # Documentação do Agente
 
-> [!TIP]
 > Prompt utilizado para esta etapa de desenvolvimento:
 > Me ajude a documentar um agente de IA financeiro. O caso de uso é educativo e orientador. Preciso definir: problema que resolve, público alvo, personalidade do agente, tom de voz e estratégias anti-alucinação. Use o template abaixo como base.... 
 
