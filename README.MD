@@ -29,7 +29,7 @@ Todo o conteúdo aqui é de caráter exclusivamente educacional e está em const
 
 ## 📌 Status
 
-> 🚧 Repositório finalizado no momento (poderam surgir alterações, pois os projetos aqui desenvolvidos podem sofrer alterações e/ou atualizações posteriores).
+> 🚧 Repositório finalizado no momento (poderão surgir alterações, pois os projetos aqui desenvolvidos podem sofrer alterações e/ou atualizações posteriores).
 
 ---
 
