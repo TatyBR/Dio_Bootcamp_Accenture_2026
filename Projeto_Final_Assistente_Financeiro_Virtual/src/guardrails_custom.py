@@ -62,8 +62,9 @@ FRASE_RECUSA_INVESTIMENTO = (
 def validar_resposta(texto_resposta: str) -> dict:
     texto_lower = texto_resposta.lower()
 
-    # Checagem 1: recomendação direcionada de investimento
-    for padrao in PADROES_RECOMENDACAO + PALAVRAS_INVESTIMENTO_PROIBIDO:
+    todos_padroes = PADROES_RECOMENDACAO + [re.escape(p) for p in PALAVRAS_INVESTIMENTO_PROIBIDO]
+
+    for padrao in todos_padroes:
         if re.search(padrao, texto_lower):
             return {
                 "valido": False,

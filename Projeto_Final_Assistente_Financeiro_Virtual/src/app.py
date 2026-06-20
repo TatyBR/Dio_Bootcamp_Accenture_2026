@@ -18,6 +18,7 @@ with open('./data/historico_atendimento.csv', 'r', encoding='utf-8') as f:
 with open('./data/produtos_financeiros.json', 'r', encoding='utf-8') as f:
    produtos = json.load(f)
 
+
 # ======== contexto ==========
 
 contexto = f"""
