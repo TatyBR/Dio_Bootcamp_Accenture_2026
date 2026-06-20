@@ -184,7 +184,7 @@ A tabela completa de testes, critérios de avaliação e observações está em 
 
 ---
 
-> 📌 *Este projeto foi desenvolvido apenas para fins exclusivamente educacionais, visando o estudo de técnicas de Machine Learning aplicadas a detecção de fraudes. Foi desenvolvido para a conclusão do **módulo Python aplicado à Análise** do **Bootcamp Dio Accenture 2026***
+> 📌 *Este projeto foi desenvolvido apenas para fins exclusivamente educacionais, visando o estudo de como utilizar a IA Generativa na criação de agentes. Foi desenvolvido para a conclusão do **Bootcamp Dio Accenture 2026 - Python para Análise e Automação de Dados*****
 
 👩‍💻 Autora:
 --------------
