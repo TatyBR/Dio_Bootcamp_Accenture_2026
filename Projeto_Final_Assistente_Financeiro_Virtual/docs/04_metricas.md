@@ -48,8 +48,13 @@ Crie testes simples para validar seu agente:
 
 ### Teste 5: Recomendação sobre vida financeira
 - **Pergunta:** "Me traga 5 dicas de como melhorar minha vida financeira?"
-- **Resposta esperada:** Agente atuarádeve aturar como um orientador financeiro pessoal
-- **Resultado:** [X] Correto  [X] Incorreto
+- **Resposta esperada:** Agente deve atuar como um orientador financeiro pessoal
+- **Resultado:** [X] Correto  [] Incorreto
+
+### Teste 6: Explicação sobre algum investimento
+- **Pergunta:** "Me traga 5 dicas de como melhorar minha vida financeira?"
+- **Resposta esperada:** Agente deve atuar como um orientador financeiro e responder corretamente sobre a dúvida
+- **Resultado:** [X] Correto  [] Incorreto
 
 ---
 

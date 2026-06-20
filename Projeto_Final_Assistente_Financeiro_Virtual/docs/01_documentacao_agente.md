@@ -56,13 +56,7 @@ Informal, descontraído e acessível.
 
 ## Arquitetura
 
-### Diagrama
-
-```
-
-
-
-```
+![Agente Sofi](./assets/arquitetura_agente.png) 
 
 ### Componentes
 
@@ -71,7 +65,7 @@ Informal, descontraído e acessível.
 | Interface            | [Streamlit](https://streamlit.io/)                 |
 | LLM                  | Ollama (Local)                                  |
 | Base de Conhecimento | JSON/CSV com dados do cliente da pasta `data` |
-| Validação          | Checagem de alucinaçõe                        |
+| Validação          | Checagem de alucinações                      |
 
 ---
 
