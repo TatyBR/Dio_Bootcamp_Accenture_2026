@@ -56,7 +56,7 @@ Informal, descontraído e acessível.
 
 ## Arquitetura
 
-![Agente Sofi](./assets/arquitetura_agente.png) 
+![Agente Sofi](../assets/arquitetura_agente.png)
 
 ### Componentes
 
